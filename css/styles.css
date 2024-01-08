@@ -442,6 +442,11 @@ body {
 
 .setting-footer-div-three-form {
   gap: 24px;
+  display: flex;
+}
+
+.setting-footer-div-three-label {
+  display: flex;
 }
 
 .setting-footer-div-three-form-input {
