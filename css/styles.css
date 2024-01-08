@@ -649,7 +649,8 @@ body {
 
 .setting-modal-form-div-five
   .visually-hidden:checked
-  + .setting-modal-form-div-five-label-span {
+  + .setting-modal-form-div-five-label
+  .setting-modal-form-div-five-label-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
