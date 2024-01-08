@@ -430,6 +430,7 @@ body {
 }
 
 .setting-footer-div-three-paragraph {
+  margin-bottom: 16px;
   color: var(--WHITE, #fff);
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -440,10 +441,6 @@ body {
 }
 
 .setting-footer-div-three-form {
-  display: flex;
-}
-
-.setting-footer-div-three-form-label {
   gap: 24px;
 }
 
