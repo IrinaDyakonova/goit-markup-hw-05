@@ -426,7 +426,7 @@ body {
 }
 
 .setting-footer-div-three {
-  display: flex;
+  display: block;
 }
 
 .setting-footer-div-three-paragraph {
@@ -515,6 +515,7 @@ a {
 
 .container-setting-dop {
   align-items: baseline;
+  justify-content: space-between;
 }
 
 img {
