@@ -544,6 +544,13 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.setting-modal-window-button:focus .unchecked {
+  display: none;
+}
+.setting-modal-window-button:focus .checked {
+  display: inline-block;
+}
+
 .setting-modal-window-paragraph {
   font-weight: 500;
   font-size: 16px;
@@ -675,7 +682,7 @@ body {
   .visually-hidden:checked
   + .setting-modal-form-div-five-label
   .checked {
-  display: block;
+  display: inline-block;
 }
 
 .setting-modal-form-div-div-five-label-a {
